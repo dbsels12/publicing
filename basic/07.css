@@ -1,0 +1,40 @@
+.container {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #778beb;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  width: 80px;
+  height: 36px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+  /* display: block; */
+}
+
+button:hover {
+  background-color: #333333;
+}
+
+.spring {
+  background-color: #f7b731;
+}
+
+.summer {
+  background-color: #18dcff;
+}
+
+.fall {
+  background-color: #b33771;
+}
+
+.winter {
+  background-color: #cad3c8;
+}

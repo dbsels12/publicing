@@ -1,0 +1,19 @@
+.title{
+    color: pink;
+    font-size: 60px;
+
+}
+.list{
+    padding-bottom: 2rem;
+    list-style: none;
+}
+.list li{
+    float: left;
+    margin: 0 1rem;
+}
+
+#title_02{
+    clear: both;
+    color: salmon;
+    font-size: 20px;
+}
