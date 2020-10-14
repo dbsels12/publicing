@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1024px;
+  border: 1px solid orange;
+  position: relative;
+}
+
+.header .image01 {
+  width: 100%;
+  height: 1024px;
+  text-indent: -9999px;
+  position: absolute;
+  background: url(https://images.unsplash.com/photo-1499557354967-2b2d8910bcca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=935&q=80)
+    no-repeat;
+  background-size: cover;
+}
+
+.header ul {
+  margin: 0 auto;
+  position: absolute;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header ul li a {
+  color: #0e0e0e;
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 28px;
+  font-family: "Nanum Myeongjo";
+  font-weight: 400;
+  transition: 0.3s;
+  line-height: 40px;
+}
+
+.header ul li:nth-child(4) a,
+.content01 ul li:last-child,
+.footer ul li:last-child {
+  margin-right: 0%;
+}
+
+.header ul li:last-child a {
+  margin-right: 0;
+  margin-left: 50px;
+}
+
+.header ul li a:hover {
+  background: #4f4f4f;
+  background-size: 100%;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.slide {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  border: 1px solid orange;
+}
+
+.slide .image02 {
+  margin: 0 auto;
+  width: 50%;
+  height: 1024px;
+  text-indent: -9999px;
+  background-image: url(https://images.unsplash.com/photo-1589329482108-e414c7c6b8c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide .profile {
+  margin: 0 auto;
+  width: 50%;
+  height: 1024px;
+  background: papayawhip;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide .profile h3 {
+  font-size: 30px;
+  margin: 50px 0;
+  font-family: "Black Han Sans";
+  font-weight: lighter;
+}
+
+.slide .profile ul {
+  list-style: none;
+  font-size: 18px;
+}
+
+.content01 {
+  height: 1024px;
+  border: 1px solid orange;
+}
+
+.content01 h3 {
+  margin: 0 auto;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  font-family: "Black Han Sans";
+  font-weight: lighter;
+  background: beige;
+}
+
+.content01 ul {
+  margin: 0 auto;
+  height: 664px;
+  display: flex;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content01 ul li {
+  width: 200px;
+  height: 200px;
+  border: 5px solid brown;
+  border-radius: 255px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.content02 {
+  height: 1024px;
+  border: 1px solid orange;
+  background: url(https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content02 a {
+  color: #0e0e0e;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "black han sans";
+}
+
+.content03 {
+  height: 1024px;
+  background: url(https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid orange;
+}
+
+.content03 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "black han sans";
+}
+
+.footer {
+  margin: 0 auto;
+  height: 500px;
+  background: bisque;
+  border: 1px solid orange;
+}
+
+.footer h3 {
+  height: 100px;
+  font-size: 40px;
+  font-family: "black han sans";
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul {
+  height: 300px;
+  list-style: none;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul li {
+  margin-right: 500px;
+}

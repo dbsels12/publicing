@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Noto+Serif+KR:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+}
+
+h2 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 13px;
+}
+
+.header {
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h4 {
+  font: bold 24px Serif;
+  color: #000000;
+  text-decoration: none;
+}
+
+.slide {
+  height: 625px;
+  border: 1px solid green;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.slide h2 {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 15px 20px;
+}
+
+.content {
+  margin-bottom: 5px;
+}
+
+.content01 {
+  height: 625px;
+  border: 1px solid green;
+  position: relative;
+}
+
+.content01 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.content01 a {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.content02 {
+  border: 1px solid green;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content02 img {
+  width: 150px;
+  display: block;
+  margin-left: 50px;
+}
+
+.content02 .cream {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.content02 .cream a {
+  width: 300px;
+  text-align: center;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.content02 .cream:nth-child(4),
+.content04 {
+  margin-bottom: 0;
+}
+
+.content03,
+.content04 {
+  height: 500px;
+  border: 1px solid green;
+  position: relative;
+}
+
+.content03 img,
+.content04 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: initial;
+}
+
+.content03 a,
+.content04 a {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer {
+  margin: 0 auto;
+  background: #000000;
+  border: 1px solid green;
+}
+
+.footer h2,
+li {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  height: 40px;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.footer li {
+  margin: 0 auto;
+  list-style: none;
+  display: inline-block;
+  width: 50%;
+  font-size: 20px;
+  float: left;
+  font-family: serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  margin: 0 auto;
+  display: inline-block;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  height: 150px;
+  font-size: 10px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 13px 8px;
+}

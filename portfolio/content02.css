@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content02 {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  background: #fffdf5;
+  border: 1px solid darkblue;
+}
+
+.content02 .header {
+  height: 200px;
+  font-size: 40px;
+  font-family: "Black han sans";
+  font-weight: lighter;
+  color: brown;
+  background: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content02 ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content02 ul li {
+  width: 550px;
+  height: 360px;
+  background: chocolate;
+  margin: 60px 100px 0 0;
+  line-height: 360px;
+  text-align: center;
+}
+
+.content02 ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 42px;
+}
